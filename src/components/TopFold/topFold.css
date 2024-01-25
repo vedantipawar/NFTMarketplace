@@ -29,3 +29,44 @@
 .tf-left-secondary-btn{
     margin-left: 36px;
 }
+
+.tf-right{
+    margin-top: 100px;
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.tf-right-diamond{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+
+.tf-r-diamond-item{
+    height: 280px;
+    width: 280px;
+    overflow: hidden;
+    margin: 10px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+}
+
+.tf-r-diamond-item img{
+    height: 250px;
+    object-fit: contain;
+    display: block;
+}
+.tf-r-bg-blob{
+    height: 550px;
+    width: 550px;
+    background-color: var(--bg-blob);
+    filter: blur(160.58px);
+    position: absolute;
+    z-index: -99;
+    left: 20%;
+    top: 10%;
+    transform: translate(-50%);
+}

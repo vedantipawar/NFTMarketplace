@@ -4,6 +4,7 @@
     --text-gradient-bg: rgb(67,59,200);
     --text-gradient-1: linear-gradient(90deg, rgba(67,59,200,1) 0%, rgba(121,9,117,1) 35%, rgba(0,212,255,1) 100%);
     --btn-bg: #2f80ed;
+    --bg-blob: rgb(143,0,255,0.35);
 
 }
 
