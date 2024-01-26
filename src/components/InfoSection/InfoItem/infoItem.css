@@ -1,0 +1,17 @@
+.info-item{
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 28px;
+    width: 30%;
+}
+
+.ii-title{
+    font-size: 28px;
+    margin-top: 18px;
+    font-weight: 600;
+}
+
+.ii-description{
+    margin-top: 18px;
+    font-size: 18px;
+}
